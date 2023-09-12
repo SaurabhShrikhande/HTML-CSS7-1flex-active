@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: #c8f3ea;
+  box-sizing: border-box;  
+}
+
+  *{
+    margin: 0;
+  }
+  
+main{
+ display: flex;
+ color: rgb(75, 143, 143);
+}
+
+  nav{
+    width: 20vw;
+    background-color: #e5fffb;
+    min-height: 100vh;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .profilePic{
+    height: 6rem;
+      width: 6rem;
+      border-radius: 50%;
+  }
+
+  .alignCenter{
+    text-align: center;
+  }
+
+  .margin0{
+    margin: 0;
+  }
+
+  .display{
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    margin: 1rem;
+  }
+
+  .maxwidth{
+    max-width: 40%;
+    align-items: center;
+  }
+
+  .imgsize{
+    width: 30%;
+  }
+
+  .bg{
+    background-color: rgb(150, 246, 246);
+    border-radius: 8px;
+  }
+
+  section{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+   margin-top: 4rem;
+   margin-left: 7%;
+  }
+
+  .position{
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .avgall{
+    background-color: #e5fffb;
+      height: 1.5rem;
+      width: 20rem;
+      border-radius: 12px;
+      margin-bottom: 10%;
+  }
+
+  .bg2{
+   width: 80%;
+  background-color: #e5fffb;
+  padding: 1.5%;
+  border-radius: 12px;
+  gap:0%;
+  justify-content: space-between;
+  align-items: top;
+}
+
+  .imggame{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(23, 2, 2);
+  }
+  .percent{
+    width: 100%;
+    background-color: #89f8e0;
+     margin: 4%;
+  }
+
+  .marginx{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
